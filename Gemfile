@@ -59,3 +59,4 @@ end
 gem 'bootstrap', '~> 4.1.0'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'simple_form'
+gem 'devise'
