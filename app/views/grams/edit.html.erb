@@ -3,5 +3,6 @@
 </h1>
 <%= simple_form_for @gram do |f| %>
   <%= f.input :message %>
-  <%= f.submit %>
+  <%= f.input :picture %>
+  <%= f.submit 'Update', class: 'my-btn' %>
 <% end %>
